@@ -1,15 +1,15 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 :root {
-    --color-bg: #282828;
-    --color-fg: #fbf1c7;
-    --color-link: #b8bb26;
-    --color-link-visited: #b8bb26;
-    --color-link-hover: #8ec07c;
+    --color-bg: #1e1e2e;
+    --color-fg: #cdd6f4;
+    --color-link: #cba6f7;
+    --color-link-visited: #cba6f7;
+    --color-link-hover: #74c7ec;
 }
 
 html, body {
-  background-image: radial-gradient(#3c3836 0.5px, #282828 0.5px);
+  background-image: radial-gradient(#313244 0.5px, #1e1e2e 0.5px);
   background-size: 10px 10px;
   color: var(--color-fg);
   font-family: "Hurmit Nerd Font", monospace;
@@ -38,7 +38,7 @@ html, body {
 .right {
   grid-area: right;
   width: 100%;
-  background-color: #1d2021;
+  background-color: #11111b;
   padding-bottom: 30px;
   padding-left: 15px;
   border-radius: 20px;
@@ -47,7 +47,7 @@ html, body {
 .image img {
   max-height: 500px;
   border-radius: 20px;
-  border: 5px solid #fbf1c7;
+  border: 5px solid var(--color-fg);
 }
 
 .head {
@@ -85,8 +85,8 @@ html, body {
   outline: none;
   border: none;
   border-radius: 15px;
-  background-color: #1a1d1e;
-  color: #fbf1c7;
+  background-color: #1e1e2e;
+  color: var(--color-fg);
   font-size: 14px;
   padding: 10px;
 }
@@ -103,7 +103,7 @@ html, body {
 .title {
   font-size: 16px;
   padding-bottom: 7.5px;
-  color: #b16186;
+  color: #f38ba8;
 
 }
 
